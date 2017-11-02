@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0A6F12261FAAAFFE007C5ECB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F12251FAAAFFE007C5ECB /* SWRevealViewController.m */; };
+		0A6F12441FAAC735007C5ECB /* SWRevealViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F12241FAAAFFE007C5ECB /* SWRevealViewController.h */; };
+		0A6F12451FAAC735007C5ECB /* Smack-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F12231FAAAFFD007C5ECB /* Smack-Bridging-Header.h */; };
 		0A9A6DE21FA962D900329799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A6DE11FA962D900329799 /* AppDelegate.swift */; };
 		0A9A6DE41FA962D900329799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A6DE31FA962D900329799 /* ViewController.swift */; };
 		0A9A6DE71FA962D900329799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A6DE51FA962D900329799 /* Main.storyboard */; };
@@ -227,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6F12441FAAC735007C5ECB /* SWRevealViewController.h in Sources */,
+				0A6F12451FAAC735007C5ECB /* Smack-Bridging-Header.h in Sources */,
 				0A9A6DE41FA962D900329799 /* ViewController.swift in Sources */,
 				0A9A6DE21FA962D900329799 /* AppDelegate.swift in Sources */,
 				0A6F12261FAAAFFE007C5ECB /* SWRevealViewController.m in Sources */,
