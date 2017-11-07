@@ -8,7 +8,12 @@
 
 import UIKit
 
-class ChannelVC: UIViewController {
+class ChannelVC: UIViewController
+{
+    //Outlets
+    //button outlet needs to be created since the name of the button will change once the user is logged in
+    @IBOutlet weak var loginBtn: UIButton!
+    
 
     override func viewDidLoad()
     {
@@ -16,6 +21,10 @@ class ChannelVC: UIViewController {
         self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
     }
 
- 
+    @IBAction func loginBtnPressed(_ sender: Any)
+    {
+        performSegue(withIdentifier: TO_LOGIN, sender: nil)
+    }
+    
 
 }
