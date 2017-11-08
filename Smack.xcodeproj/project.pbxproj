@@ -15,6 +15,7 @@
 		0A6F12261FAAAFFE007C5ECB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F12251FAAAFFE007C5ECB /* SWRevealViewController.m */; };
 		0A6F12441FAAC735007C5ECB /* SWRevealViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F12241FAAAFFE007C5ECB /* SWRevealViewController.h */; };
 		0A6F12451FAAC735007C5ECB /* Smack-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F12231FAAAFFD007C5ECB /* Smack-Bridging-Header.h */; };
+		0A84C4401FB28C230060AE5E /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84C43F1FB28C230060AE5E /* CreateAccountVC.swift */; };
 		0A9A6DE21FA962D900329799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A6DE11FA962D900329799 /* AppDelegate.swift */; };
 		0A9A6DE71FA962D900329799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A6DE51FA962D900329799 /* Main.storyboard */; };
 		0A9A6DE91FA962D900329799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A6DE81FA962D900329799 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		0A6F12231FAAAFFD007C5ECB /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		0A6F12241FAAAFFE007C5ECB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		0A6F12251FAAAFFE007C5ECB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0A84C43F1FB28C230060AE5E /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		0A9A6DDE1FA962D900329799 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9A6DE11FA962D900329799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A9A6DE61FA962D900329799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				0A070B3B1FAB8A58009F100F /* ChatVC.swift */,
 				0A070B3E1FAB8A73009F100F /* ChannelVC.swift */,
 				0A04DB7A1FB236DB009F28F7 /* LoginVC.swift */,
+				0A84C43F1FB28C230060AE5E /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				0A070B411FAB8FB4009F100F /* GradientView.swift in Sources */,
 				0A070B3F1FAB8A73009F100F /* ChannelVC.swift in Sources */,
 				0A070B3C1FAB8A58009F100F /* ChatVC.swift in Sources */,
+				0A84C4401FB28C230060AE5E /* CreateAccountVC.swift in Sources */,
 				0A04DB791FB23284009F28F7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

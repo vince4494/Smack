@@ -13,6 +13,7 @@ class ChannelVC: UIViewController
     //Outlets
     //button outlet needs to be created since the name of the button will change once the user is logged in
     @IBOutlet weak var loginBtn: UIButton!
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){}
     
 
     override func viewDidLoad()
