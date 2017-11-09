@@ -217,7 +217,7 @@
                                     <action selector="closePressed:" destination="vJn-8l-kwC" eventType="touchUpInside" id="qG5-tL-oWi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maO-kD-X9d">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maO-kD-X9d" customClass="RoundedButton" customModule="Smack" customModuleProvider="target">
                                 <rect key="frame" x="62.5" y="286" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -228,6 +228,11 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="yor-Hq-m8L">
                                 <rect key="frame" x="62.5" y="160" width="250" height="86"/>
@@ -328,7 +333,7 @@
                                 <color key="textColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TlK-hE-wri">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TlK-hE-wri" customClass="RoundedButton" customModule="Smack" customModuleProvider="target">
                                 <rect key="frame" x="62.5" y="597" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -339,14 +344,22 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="createAccountPressed:" destination="Sqi-qq-Fhs" eventType="touchUpInside" id="EUy-t7-YV1"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="2eE-uE-wPA">
                                 <rect key="frame" x="62.5" y="123" width="250" height="136"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QV7-7T-GUS">
-                                        <rect key="frame" x="0.0" y="0.0" width="82.5" height="20"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="20"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="82.5" id="QbO-CC-F6N"/>
+                                            <constraint firstAttribute="width" constant="250" id="QbO-CC-F6N"/>
                                         </constraints>
                                         <color key="textColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
@@ -361,9 +374,9 @@
                                         </constraints>
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zje-8H-IT3">
-                                        <rect key="frame" x="0.0" y="50" width="82.5" height="20"/>
+                                        <rect key="frame" x="0.0" y="50" width="250" height="20"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="82.5" id="d75-zk-CbC"/>
+                                            <constraint firstAttribute="width" constant="250" id="d75-zk-CbC"/>
                                         </constraints>
                                         <color key="textColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
@@ -378,9 +391,9 @@
                                         </constraints>
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G6D-d7-Lzh">
-                                        <rect key="frame" x="0.0" y="100" width="79.5" height="20"/>
+                                        <rect key="frame" x="0.0" y="100" width="250" height="20"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="79.5" id="0M0-fu-3yx"/>
+                                            <constraint firstAttribute="width" constant="250" id="0M0-fu-3yx"/>
                                         </constraints>
                                         <color key="textColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
@@ -407,6 +420,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createAccountBtnPressed:" destination="vJn-8l-kwC" eventType="touchUpInside" id="HqV-3H-eJ8"/>
+                                    <action selector="pickAvatarPressed:" destination="Sqi-qq-Fhs" eventType="touchUpInside" id="gDb-Wa-9aZ"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="HXu-g5-M8I">
@@ -428,6 +442,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createAccountBtnPressed:" destination="vJn-8l-kwC" eventType="touchUpInside" id="0ZL-gM-ZK3"/>
+                                    <action selector="pickBGColorPressed:" destination="Sqi-qq-Fhs" eventType="touchUpInside" id="Tzc-8y-YJU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -452,6 +467,10 @@
                         <viewLayoutGuide key="safeArea" id="oMM-FD-e76"/>
                     </view>
                     <connections>
+                        <outlet property="emailTxt" destination="zje-8H-IT3" id="xan-DC-0e1"/>
+                        <outlet property="passTxt" destination="G6D-d7-Lzh" id="Zn2-MI-8Ix"/>
+                        <outlet property="userImag" destination="HXu-g5-M8I" id="vtB-mA-YgU"/>
+                        <outlet property="usernameTxt" destination="QV7-7T-GUS" id="d5u-Hs-7hB"/>
                         <segue destination="MPd-ZL-qUG" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="bMz-Zo-jO2"/>
                     </connections>
                 </viewController>
