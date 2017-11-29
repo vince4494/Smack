@@ -12,6 +12,7 @@
 		0A070B3C1FAB8A58009F100F /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A070B3B1FAB8A58009F100F /* ChatVC.swift */; };
 		0A070B3F1FAB8A73009F100F /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A070B3E1FAB8A73009F100F /* ChannelVC.swift */; };
 		0A070B411FAB8FB4009F100F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A070B401FAB8FB4009F100F /* GradientView.swift */; };
+		0A5FC4911FCE6116004B35BD /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5FC4901FCE6116004B35BD /* RoundedView.swift */; };
 		0A6556881FCDFEB100F14C34 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6556861FCDFEB100F14C34 /* ProfileVC.swift */; };
 		0A6556891FCDFEB100F14C34 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6556871FCDFEB100F14C34 /* ProfileVC.xib */; };
 		0A6F12261FAAAFFE007C5ECB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F12251FAAAFFE007C5ECB /* SWRevealViewController.m */; };
@@ -37,6 +38,7 @@
 		0A070B3B1FAB8A58009F100F /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		0A070B3E1FAB8A73009F100F /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		0A070B401FAB8FB4009F100F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		0A5FC4901FCE6116004B35BD /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		0A6556861FCDFEB100F14C34 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		0A6556871FCDFEB100F14C34 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		0A6F12231FAAAFFD007C5ECB /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				0A9B71D81FB4EA5000A8EF1F /* RoundedButton.swift */,
 				0AB625201FBCCEA9003DBB21 /* AvatarCell.swift */,
 				0AAA01031FBF81E2001880FE /* CircleImage.swift */,
+				0A5FC4901FCE6116004B35BD /* RoundedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			files = (
 				0A6F12441FAAC735007C5ECB /* SWRevealViewController.h in Sources */,
 				0AAA01041FBF81E2001880FE /* CircleImage.swift in Sources */,
+				0A5FC4911FCE6116004B35BD /* RoundedView.swift in Sources */,
 				0AE9984F1FBB7CEA00DD8ADC /* UserDataService.swift in Sources */,
 				0A6F12451FAAC735007C5ECB /* Smack-Bridging-Header.h in Sources */,
 				0A04DB7B1FB236DB009F28F7 /* LoginVC.swift in Sources */,
