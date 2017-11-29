@@ -234,6 +234,9 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPressed:" destination="vJn-8l-kwC" eventType="touchUpInside" id="Q4D-MG-OKa"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="yor-Hq-m8L">
                                 <rect key="frame" x="62.5" y="160" width="250" height="86"/>
@@ -288,6 +291,10 @@
                                     <action selector="createAccountBtnPressed:" destination="vJn-8l-kwC" eventType="touchUpInside" id="CvH-b1-lcC"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="9Ca-1M-8ih">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -300,11 +307,16 @@
                             <constraint firstItem="TzM-1w-Sud" firstAttribute="trailing" secondItem="sMo-Ir-ktv" secondAttribute="trailing" constant="15" id="Ovh-F6-bco"/>
                             <constraint firstItem="yor-Hq-m8L" firstAttribute="top" secondItem="Ylf-yW-78y" secondAttribute="bottom" constant="40" id="SGJ-Ka-mmR"/>
                             <constraint firstItem="JkX-It-fsG" firstAttribute="top" secondItem="maO-kD-X9d" secondAttribute="bottom" id="cdA-oo-6GB"/>
+                            <constraint firstItem="9Ca-1M-8ih" firstAttribute="centerX" secondItem="jdf-Rh-3mZ" secondAttribute="centerX" id="dd2-pQ-Sak"/>
                             <constraint firstItem="Ylf-yW-78y" firstAttribute="centerX" secondItem="jdf-Rh-3mZ" secondAttribute="centerX" id="hTa-8e-qRI"/>
+                            <constraint firstItem="9Ca-1M-8ih" firstAttribute="centerY" secondItem="jdf-Rh-3mZ" secondAttribute="centerY" constant="-100" id="pXA-kT-9Qo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TzM-1w-Sud"/>
                     </view>
                     <connections>
+                        <outlet property="passwordTxt" destination="93o-6M-zZs" id="JuF-Ps-OSz"/>
+                        <outlet property="spinner" destination="9Ca-1M-8ih" id="qao-Th-GAt"/>
+                        <outlet property="usernameTxt" destination="gg0-pv-bhb" id="adE-KM-ysb"/>
                         <segue destination="Sqi-qq-Fhs" kind="show" identifier="toCreateAccount" id="GjG-3y-28Z"/>
                     </connections>
                 </viewController>
