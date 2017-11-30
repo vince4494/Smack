@@ -30,7 +30,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CyX-YE-GHd" userLabel="bgView">
-                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q3F-yF-Blt" customClass="RoundedView" customModule="Smack" customModuleProvider="target">
@@ -102,7 +102,7 @@
                 <constraint firstItem="q3F-yF-Blt" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="EiB-Cq-Gum"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="CyX-YE-GHd" secondAttribute="bottom" id="bT0-ev-RE4"/>
                 <constraint firstItem="CyX-YE-GHd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gdj-HB-mdX"/>
-                <constraint firstItem="CyX-YE-GHd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="rIn-er-mvg"/>
+                <constraint firstItem="CyX-YE-GHd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="-20" id="rIn-er-mvg"/>
                 <constraint firstItem="q3F-yF-Blt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="uKb-Mv-ecL"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="q3F-yF-Blt" secondAttribute="trailing" constant="20" id="xzf-51-6RE"/>
             </constraints>
