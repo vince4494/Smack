@@ -33,7 +33,7 @@ class MessageService
                         let channel = Channel(channelTitle: name, channelDescription: channelDescription, id: id)
                         self.channels.append(channel)
                     }
-                    print(self.channels[0].channelTitle)
+                    //print(self.channels[0].channelTitle)
                     completion(true)
                 }
                 
