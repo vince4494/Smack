@@ -88,7 +88,7 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         {
             loginBtn.setTitle(UserDataService.instance.name, for: .normal)
             userImg.image = UIImage(named: UserDataService.instance.avatarName)
-            userImg.backgroundColor = UserDataService.instance.returnUIColor(comnponents: UserDataService.instance.avatorColor)
+            userImg.backgroundColor = UserDataService.instance.returnUIColor(components: UserDataService.instance.avatorColor)
         }
         else
         {

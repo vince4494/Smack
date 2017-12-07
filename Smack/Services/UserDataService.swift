@@ -33,9 +33,9 @@ class UserDataService
         self.avatarName = avatarName
     }
     
-    func returnUIColor(comnponents: String) -> UIColor
+    func returnUIColor(components: String) -> UIColor
     {        
-        let scanner = Scanner(string: comnponents)
+        let scanner = Scanner(string: components)
         let skipped = CharacterSet(charactersIn: "[], ")
         let comma = CharacterSet(charactersIn: ",")
         scanner.charactersToBeSkipped = skipped
